@@ -1,0 +1,17 @@
+{
+  "name": "websocket_latency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/lodash": "^4.14.138",
+    "@types/ws": "^6.0.3",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "ws": "^7.1.2"
+  }
+}
