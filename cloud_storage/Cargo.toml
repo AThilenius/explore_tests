@@ -1,0 +1,15 @@
+[package]
+name = "cloud_storage"
+version = "0.1.0"
+authors = ["Alec Thilenius <alec@thilenius.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.22"
+bytes = "0.4.12"
+http = "0.1.19"
+reqwest = { version = "0.9.22", default-features = false, features = ["rustls-tls"] }
+structopt = "0.3.4"
+tame-gcs = "0.5.1"
+tame-oauth = { version = "0.3.0", features = ["gcp"] }
+url = "2.1.0"
